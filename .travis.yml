@@ -1,3 +1,4 @@
+before_install: cd Testsuite
 language: python
 python:
   - "3.4"

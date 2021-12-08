@@ -66,4 +66,4 @@ class TestRestaurant(unittest.TestCase):
         self.assertIsInstance(self.p2,Restaurant,msg=None)
         self.assertIsInstance(self.p3,Restaurant,msg=None)
         self.assertIsInstance(self.p4,Restaurant,msg=None)
-        
+unittest.main()

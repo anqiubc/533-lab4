@@ -71,3 +71,4 @@ class TestSwimmingPool(unittest.TestCase):
         self.assertIsInstance(self.p2,swimming_pool,msg=None)
         self.assertIsInstance(self.p3,swimming_pool,msg=None)
         self.assertIsInstance(self.p4,swimming_pool,msg=None)
+unittest.main()

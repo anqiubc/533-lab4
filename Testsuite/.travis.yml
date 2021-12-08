@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.4"
+  - "3.5"
+  - "3.8"
+# command to run tests
+script:
+  - python TestModule1.py
+  - python TestModule2.py
+  - python TestModule3.py
+  - python TestModule4.py
+  - python TestModule5.py
+  - python TestModule5.py

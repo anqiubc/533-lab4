@@ -59,3 +59,4 @@ class TestChildren(unittest.TestCase):
         self.assertEqual(self.p3.display(),'Name:David Age:9 Duration:4 bill:200 pooltime:1')
         self.assertEqual(self.p4.display(),'Name:Carol Age:6 Duration:10 bill:170 pooltime:0')
         self.assertNotEqual(self.p1.display(),'Name:Alex,Age:8,Duration:4,bill:150,pooltime:2')#wrong format
+unittest.main()

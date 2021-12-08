@@ -87,3 +87,4 @@ class TestRoom(unittest.TestCase):
         self.assertIsInstance(self.p2,Room,msg=None)
         self.assertIsInstance(self.p3,Room,msg=None)
         self.assertIsInstance(self.p4,Room,msg=None)
+unittest.main()

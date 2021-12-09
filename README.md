@@ -2,7 +2,7 @@
 
 [![Build Status](https://app.travis-ci.com/anqiubc/533-lab4.svg?token=gXX2VZwumP3CqT69yc6o&branch=main)](https://app.travis-ci.com/anqiubc/533-lab4)
 
-Pypi Link: https://pypi.org/project/Hotel/0.1/
+Pypi Link: https://pypi.org/project/Hotel/1.1/
 
 
 Evelyn Sugihermanto, Anqi Li

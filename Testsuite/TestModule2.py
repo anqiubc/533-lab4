@@ -4,7 +4,7 @@ import sys
 import os
 module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
-    sys.path.append(module_path)
+    sys.path.append(module_path+"\\Hotel")
 from Person.customers import Customers
 class TestCustomers(unittest.TestCase):
     @classmethod
@@ -46,4 +46,5 @@ class TestCustomers(unittest.TestCase):
         self.assertEqual(self.p3.display(),'Name:Can Age:26 Duration:7 bill:800')
         self.assertEqual(self.p4.display(),'Name:Evelyn Age:23 Duration:4 bill:200')
         self.assertNotEqual(self.p2.display(),'Name:Grace, Age:25 Duration:8 bill:480')#wrong format
-
+        
+        

@@ -1,6 +1,12 @@
 # Hotel Management Package
-Evelyn Sugihermanto
-Anqi Li
+
+[![Build Status](https://app.travis-ci.com/anqiubc/533-lab4.svg?token=gXX2VZwumP3CqT69yc6o&branch=main)](https://app.travis-ci.com/anqiubc/533-lab4)
+
+Pypi Link: https://pypi.org/project/Hotel/1.1/
+
+
+Evelyn Sugihermanto, Anqi Li
+
 ---
 We created a hotel management package to manage the services and people in the hotel. The package has two subpackages: Service and Person. 
 ## Subpackage 1: Service

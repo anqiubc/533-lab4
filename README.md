@@ -4,9 +4,8 @@
 
 Pypi Link: https://pypi.org/project/HotelManagementPackage/0.1/
 
-Evelyn Sugihermanto
 
-Anqi Li
+Evelyn Sugihermanto, Anqi Li
 ---
 We created a hotel management package to manage the services and people in the hotel. The package has two subpackages: Service and Person. 
 ## Subpackage 1: Service

@@ -4,7 +4,7 @@ import sys
 import os
 module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
-    sys.path.append(module_path+"\\Hotel")
+    sys.path.append(module_path)
 from Service.swimming_pool import swimming_pool
 
 class TestSwimmingPool(unittest.TestCase):
@@ -71,4 +71,3 @@ class TestSwimmingPool(unittest.TestCase):
         self.assertIsInstance(self.p2,swimming_pool,msg=None)
         self.assertIsInstance(self.p3,swimming_pool,msg=None)
         self.assertIsInstance(self.p4,swimming_pool,msg=None)
-unittest.main()

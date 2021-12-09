@@ -4,7 +4,7 @@ import sys
 import os
 module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
-    sys.path.append(module_path+"\\Hotel")
+    sys.path.append(module_path)
 from Service.restaurant import Restaurant
 
 class TestRestaurant(unittest.TestCase):
@@ -66,4 +66,3 @@ class TestRestaurant(unittest.TestCase):
         self.assertIsInstance(self.p2,Restaurant,msg=None)
         self.assertIsInstance(self.p3,Restaurant,msg=None)
         self.assertIsInstance(self.p4,Restaurant,msg=None)
-unittest.main()

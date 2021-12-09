@@ -1,4 +1,7 @@
 # Hotel Management Package
+
+[![Build Status](https://app.travis-ci.com/anqiubc/533-lab4.svg?token=gXX2VZwumP3CqT69yc6o&branch=main)](https://app.travis-ci.com/anqiubc/533-lab4)
+
 Evelyn Sugihermanto
 Anqi Li
 ---
